@@ -1,5 +1,3 @@
-<img width="1024" height="1536" alt="bor_manual" src="https://github.com/user-attachments/assets/81adbdd9-5062-4ea8-8aa2-e2b37c2f2b19" />
-
 <html lang="id">
 <head>
   <meta charset="UTF-8">
