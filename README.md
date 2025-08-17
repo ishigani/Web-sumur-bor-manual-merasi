@@ -167,7 +167,7 @@
       </ul>
 
       <h2>Harga dan Paket</h2>
-      <p>Kami menawarkan harga mulai dari <strong>Rp1.000.000</strong> tergantung kedalaman dan lokasi.</p>
+      <p>Kami menawarkan harga mulai dari <strong>Rp2.000.000</strong> tergantung kedalaman dan lokasi.</p>
       <p>Hubungi kami langsung untuk konsultasi gratis dan survei lokasi!</p>
 
       <h2>Testimoni Pelanggan</h2>
