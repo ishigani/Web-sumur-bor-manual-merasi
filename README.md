@@ -160,7 +160,7 @@
 
       <h2>Keunggulan Jasa Kami</h2>
       <ul>
-        <li>💧 Air dijamin bersih & jernih (bisa langsung digunakan)</li>
+        <li>💧 Air dijamin bersih & jernih </li>
         <li>🔧 Tim profesional & berpengalaman</li>
         <li>📍 Pengerjaan bisa di lokasi sempit (gang, samping rumah, dll)</li>
         <li>⏱️ Estimasi waktu pengerjaan 1–3 hari tergantung kondisi tanah</li>
@@ -170,11 +170,7 @@
       <p>Kami menawarkan harga mulai dari <strong>Rp2.000.000</strong> tergantung kedalaman dan lokasi.</p>
       <p>Hubungi kami langsung untuk konsultasi gratis dan survei lokasi!</p>
 
-      <h2>Testimoni Pelanggan</h2>
-      <blockquote>
-        "Airnya bersih banget, langsung bisa dipakai untuk mandi dan masak. Pengerjaannya cepat, orangnya juga ramah!"  
-        <br>— Bapak Dedi, Lubuk Linggau
-      </blockquote>
+      
     </div>
 
     <div class="whatsapp-button">
