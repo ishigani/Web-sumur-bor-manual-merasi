@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
@@ -23,18 +23,18 @@
 
     header h1 {
       margin: 0;
-      font-size: 32px;
+      font-size: 36px;
       font-weight: 600;
     }
 
     header p {
       margin-top: 10px;
-      font-size: 16px;
+      font-size: 18px;
       opacity: 0.9;
     }
 
     .container {
-      padding: 25px 15px;
+      padding: 30px 20px;
       max-width: 1000px;
       margin: auto;
       background: white;
@@ -56,17 +56,16 @@
     .features {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-around;
       margin-top: 20px;
       padding: 0;
       list-style: none;
-      gap: 15px;
     }
 
     .features li {
       flex: 1 1 30%;
-      min-width: 220px;
-      font-size: 16px;
+      margin: 10px;
+      font-size: 18px;
       background: #e6f2ff;
       padding: 15px;
       border-radius: 8px;
@@ -75,8 +74,8 @@
     }
 
     .location, .contact {
-      margin-top: 25px;
-      font-size: 16px;
+      margin-top: 30px;
+      font-size: 18px;
       text-align: center;
     }
 
@@ -86,18 +85,18 @@
     }
 
     .more-info {
-      margin-top: 30px;
+      margin-top: 40px;
     }
 
     .more-info h2 {
       color: #004080;
-      font-size: 22px;
-      margin-top: 20px;
+      font-size: 24px;
+      margin-top: 25px;
     }
 
     .more-info p {
-      font-size: 15px;
-      line-height: 1.6;
+      font-size: 16px;
+      line-height: 1.7;
     }
 
     .more-info ul {
@@ -106,22 +105,21 @@
     }
 
     .more-info ul li {
-      font-size: 15px;
-      margin-bottom: 8px;
+      font-size: 16px;
+      margin-bottom: 10px;
     }
 
     blockquote {
       font-style: italic;
       background-color: #f0f8ff;
       border-left: 4px solid #004080;
-      padding: 12px 16px;
+      padding: 15px 20px;
       margin-top: 20px;
       border-radius: 6px;
-      font-size: 15px;
     }
 
     .whatsapp-button {
-      margin-top: 30px;
+      margin-top: 40px;
       text-align: center;
     }
 
@@ -129,10 +127,10 @@
       display: inline-block;
       background-color: #25D366;
       color: white;
-      padding: 12px 25px;
+      padding: 14px 30px;
       border-radius: 8px;
       text-decoration: none;
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 600;
       transition: transform 0.2s ease, background-color 0.3s ease;
     }
@@ -146,33 +144,9 @@
       background-color: #004080;
       color: white;
       text-align: center;
-      padding: 18px;
-      margin-top: 40px;
+      padding: 20px;
+      margin-top: 50px;
       font-size: 14px;
-    }
-
-    /* 📱 RESPONSIVE */
-    @media (max-width: 768px) {
-      header h1 {
-        font-size: 26px;
-      }
-      header p {
-        font-size: 14px;
-      }
-      .features {
-        flex-direction: column;
-        align-items: stretch;
-      }
-      .features li {
-        min-width: 100%;
-        font-size: 15px;
-      }
-      .more-info h2 {
-        font-size: 20px;
-      }
-      .more-info p, .more-info ul li {
-        font-size: 14px;
-      }
     }
   </style>
 </head>
