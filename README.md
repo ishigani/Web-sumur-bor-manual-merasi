@@ -6,147 +6,159 @@
   <title>Jasa Bor Sumur Manual</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
+    /* RESET */
+    * {
+      margin: 0 !important;
+      padding: 0 !important;
+      box-sizing: border-box !important;
+    }
+    ul { list-style: none !important; }
+
     body {
-      font-family: 'Poppins', sans-serif;
-      background: #f5f9ff;
-      margin: 0;
-      padding: 0;
-      color: #333;
+      font-family: 'Poppins', sans-serif !important;
+      background: #f5f9ff !important;
+      color: #333 !important;
+      line-height: 1.6 !important;
     }
 
+    /* HEADER */
     header {
-      background: linear-gradient(135deg, #004080, #0066cc);
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
+      width: 100% !important;
+      background: linear-gradient(135deg, #004080, #0066cc) !important;
+      color: #fff !important;
+      text-align: center !important;
+      padding: 30px 20px !important;
     }
 
     header h1 {
-      margin: 0;
-      font-size: 36px;
-      font-weight: 600;
+      font-size: 28px !important;
+      font-weight: 700 !important;
+      margin-bottom: 8px !important;
     }
 
     header p {
-      margin-top: 10px;
-      font-size: 18px;
-      opacity: 0.9;
+      font-size: 15px !important;
+      color: #e0e0e0 !important;
     }
 
+    /* CONTAINER */
     .container {
-      padding: 30px 20px;
-      max-width: 1000px;
-      margin: auto;
-      background: white;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-      margin-top: -30px;
-      border-radius: 12px;
-      position: relative;
-      z-index: 2;
+      padding: 20px 15px !important;
+      max-width: 1000px !important;
+      margin: -20px auto 20px auto !important;
+      background: #fff !important;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08) !important;
+      border-radius: 12px !important;
     }
 
     img {
-      width: 100%;
-      max-width: 700px;
-      display: block;
-      margin: 20px auto;
-      border-radius: 12px;
+      width: 100% !important;
+      height: auto !important;
+      display: block !important;
+      margin: 15px auto !important;
+      border-radius: 12px !important;
     }
 
+    /* FITUR */
     .features {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      margin-top: 20px;
-      padding: 0;
-      list-style: none;
+      display: flex !important;
+      flex-wrap: wrap !important;
+      justify-content: center !important;
+      gap: 12px !important;
+      margin-top: 20px !important;
     }
 
     .features li {
-      flex: 1 1 30%;
-      margin: 10px;
-      font-size: 18px;
-      background: #e6f2ff;
-      padding: 15px;
-      border-radius: 8px;
-      text-align: center;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      flex: 1 1 30% !important;
+      min-width: 200px !important;
+      background: #e6f2ff !important;
+      color: #004080 !important;
+      padding: 12px !important;
+      border-radius: 8px !important;
+      text-align: center !important;
+      font-size: 15px !important;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
     }
 
+    /* INFO */
     .location, .contact {
-      margin-top: 30px;
-      font-size: 18px;
-      text-align: center;
+      margin-top: 25px !important;
+      font-size: 15px !important;
+      text-align: center !important;
     }
 
     .contact span {
-      font-weight: bold;
-      color: #004080;
+      font-weight: bold !important;
+      color: #004080 !important;
     }
 
     .more-info {
-      margin-top: 40px;
+      margin-top: 25px !important;
     }
 
     .more-info h2 {
-      color: #004080;
-      font-size: 24px;
-      margin-top: 25px;
+      color: #004080 !important;
+      font-size: 20px !important;
+      margin: 18px 0 10px 0 !important;
     }
 
     .more-info p {
-      font-size: 16px;
-      line-height: 1.7;
-    }
-
-    .more-info ul {
-      padding-left: 20px;
-      margin-top: 10px;
+      font-size: 14px !important;
     }
 
     .more-info ul li {
-      font-size: 16px;
-      margin-bottom: 10px;
+      font-size: 14px !important;
+      margin-bottom: 6px !important;
     }
 
     blockquote {
-      font-style: italic;
-      background-color: #f0f8ff;
-      border-left: 4px solid #004080;
-      padding: 15px 20px;
-      margin-top: 20px;
-      border-radius: 6px;
+      font-style: italic !important;
+      background-color: #f0f8ff !important;
+      border-left: 4px solid #004080 !important;
+      padding: 12px 15px !important;
+      margin-top: 15px !important;
+      border-radius: 6px !important;
+      font-size: 14px !important;
     }
 
+    /* WHATSAPP BUTTON */
     .whatsapp-button {
-      margin-top: 40px;
-      text-align: center;
+      margin-top: 25px !important;
+      text-align: center !important;
     }
 
     .whatsapp-button a {
-      display: inline-block;
-      background-color: #25D366;
-      color: white;
-      padding: 14px 30px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-size: 18px;
-      font-weight: 600;
-      transition: transform 0.2s ease, background-color 0.3s ease;
+      display: inline-block !important;
+      background-color: #25D366 !important;
+      color: white !important;
+      padding: 12px 22px !important;
+      border-radius: 8px !important;
+      text-decoration: none !important;
+      font-size: 16px !important;
+      font-weight: 600 !important;
+      transition: transform 0.2s ease, background-color 0.3s ease !important;
     }
 
     .whatsapp-button a:hover {
-      background-color: #1ebe5d;
-      transform: scale(1.05);
+      background-color: #1ebe5d !important;
+      transform: scale(1.05) !important;
     }
 
+    /* FOOTER */
     footer {
-      background-color: #004080;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 50px;
-      font-size: 14px;
+      background-color: #004080 !important;
+      color: white !important;
+      text-align: center !important;
+      padding: 15px !important;
+      font-size: 13px !important;
+      margin-top: 30px !important;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      header h1 { font-size: 22px !important; }
+      .features { flex-direction: column !important; }
+      .features li { min-width: 100% !important; }
     }
   </style>
 </head>
