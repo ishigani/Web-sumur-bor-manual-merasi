@@ -23,7 +23,7 @@
 
     /* HEADER */
     header {
-      width: 100% !important;
+      width: 100vh% !important;
       background: linear-gradient(135deg, #004080, #0066cc) !important;
       color: #fff !important;
       text-align: center !important;
