@@ -21,14 +21,19 @@
       line-height: 1.6 !important;
     }
 
-    /* HEADER */
-    header {
-      width: 100vh% !important;
-      background: linear-gradient(135deg, #004080, #0066cc) !important;
-      color: #fff !important;
-      text-align: center !important;
-      padding: 30px 20px !important;
-    }
+   header {
+  width: 100vw !important; /* lebar penuh layar */
+  background: linear-gradient(135deg, #004080, #0066cc) !important;
+  color: #fff !important;
+  text-align: center !important;
+  padding: 40px 20px !important; /* kamu bisa ubah 40 jadi lebih besar jika mau header lebih tinggi */
+  margin: 0 !important;
+}
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important; /* biar gak muncul scroll horizontal */
+}
 
     header h1 {
       font-size: 28px !important;
